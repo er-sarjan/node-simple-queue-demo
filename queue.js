@@ -12,5 +12,6 @@ var app = express();
 var server = require('http').createServer(app);
 app.use(queueWeb.route);
 server.listen('9000', function () {
-  console.log('Express server listening');
+  console.log('Express server listening 9000');
+  console.log('Go to http://localhost:9000/');
 });

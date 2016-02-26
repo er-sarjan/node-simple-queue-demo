@@ -5,4 +5,4 @@ TestJob.perform = function(data, done) {
   done(null, true); // if your job is successful
   done(err); // if your job fails
 };
-GLOBAL.QUEUE.TestJob = TestJob;
+GLOBAL.TestJob = TestJob;
